@@ -470,44 +470,12 @@
 % BEGIN OOIWT TITLE PAGE
 \newcommand\maketitle{\begin{titlepage}%
 \singlespacing
-\thispagestyle{empty}
 \begin{centering}
-\large
-\if@urop
-  Undergraduate Research Opportunity Program\\
-  (UROP) Project Report \\
-\else
-  \if@hyp
-     Honours Year Project Report \\
-   \else
-     \errmessage{Unknown project type. Please use option hyp or urop in documentclass}
-  \fi
-\fi
-\vspace{2 cm}
-\Large \textbf{\@title} \vspace{2 cm} \large \\
-By \\ \vspace{.5cm}
-\@author \\
-\vspace{2 cm} 
-Department of Computer Science \\  \vspace{.5cm}
-School of Computing \\ \vspace{.5cm}
-National University of Singapore \\ \vspace{1cm}
-\@pjyear \\
-\vspace{6 cm}
-\newpage
 \setcounter{page}\@ne
 \addcontentsline{toc}{chapter}{Title}
 \thispagestyle{empty}
 \large
-\if@urop
-  Undergraduate Research Opportunity Program\\
-  (UROP) Project Report \\
-\else
-  \if@hyp
-    Honours Year Project Report \\
-   \else
-    
-  \fi
-\fi
+Final Year Project CA Report \\
 \vspace{1 cm}
 \Large \textbf{\@title} \vspace{2 cm} \large \\
 By \\ \vspace{.5cm}
